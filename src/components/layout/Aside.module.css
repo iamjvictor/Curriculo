@@ -1,0 +1,66 @@
+
+.body{
+    background-color: rgb(83, 83, 83);
+    width: auto;
+    height: auto;
+    padding: 10px;
+    text-align: justify;
+}
+
+.texto{
+    font-size: medium;
+    text-align: center;
+    font-weight: bolder;    
+    margin: 20px;
+    text-align: left;
+    width: 25%;
+
+}
+
+.comp{
+
+  
+    width: auto;
+    margin:0 auto;    
+    display:block;
+    float: right;
+    padding: 15px;
+    margin: 10px;
+    margin-top: 5%;
+    
+
+    
+    
+}
+
+.comp ul li {
+        margin: 0;
+        padding: 0px;
+		border-bottom: 1px solid #CCC;
+		text-align: left;
+		list-style-type: none;
+}
+.bcard{
+    border:1px solid rgb(255, 0, 0);
+    border-radius:4px;
+    text-decoration: none;
+    padding: 8px 10px;
+    margin-left:10px;
+}
+
+.ficha{
+        
+        width:25%;
+        text-align:center;
+        color:#000000; 
+        font-family: 'open_sansregular';
+        font-size:16px;
+        text-align: center;
+        padding: 5px;
+        margin: 3px;
+}
+
+.ficha td{
+    border: 1px dotted black;
+
+}

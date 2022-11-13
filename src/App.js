@@ -1,25 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
-import usuario from './components/usuario'
-import styles from './components/Text.module.css'
-import functions from './components/Functions'
+import Competencias from './components/layout/Competencias'
+import Footer from './components/layout/Footer'
+import style from './components/layout/Aside.module.css'
 
 
 
-function App() {
-  var dataAtual = new Date();
-  const skills = ['Node.js', 'React', 'Javascript', 'Mysql']
+function App() { 
   return (
-    <div className={styles.body}>   
-                 
+    <div className={style.body}>    
+        <p>Teste</p>                
         <img src={logo} className="App-logo" alt="logo" />
-        <usuario.Info dia ={dataAtual.getDate()} mes ={dataAtual.getMonth()} ano = {dataAtual.getFullYear()}/>  
-        <usuario.User nota = {8.2}/>     
-        <h1>Minhas competencias: </h1> 
-        <functions.ShowList itens={skills}/> 
-
-             
-    </div>
+        <Competencias/> 
+        <Footer/>
+    </div>    
   );
 }
 
